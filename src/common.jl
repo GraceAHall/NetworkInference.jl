@@ -16,6 +16,8 @@ struct Node
     probabilities::Array{Float64}
 end
 
+# heres a comment!
+
 # Constructs a Node from a line of a data file. line should be an array with
 # the label as the first element, then the raw data values.
 function Node(line::AbstractArray, discretizer, estimator, number_of_bins)
